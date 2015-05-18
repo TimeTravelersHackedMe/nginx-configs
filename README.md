@@ -1,2 +1,0 @@
-# nginx-configs
-Nginx-configuration

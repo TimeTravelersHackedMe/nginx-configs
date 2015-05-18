@@ -1,0 +1,12 @@
+server {
+
+  listen 80 default_server;
+  server_name localhost;
+
+  location /hello2.com {
+  alias /usr/local/nginx/html/hello2.com/public;
+  index index.php;
+  }
+
+  include hhvm.conf;
+}
